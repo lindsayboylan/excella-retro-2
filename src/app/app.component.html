@@ -1,3 +1,7 @@
 <h1>
   {{title}}
 </h1>
+<div *ngFor='let session of sessions | async'>
+  <span>{{session.isActive}}</span>
+</div>
+<button (click)="createSession()">Test Create Session</button>
