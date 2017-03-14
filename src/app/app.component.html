@@ -1,7 +1,18 @@
 <h1>
   {{title}}
 </h1>
+<h2>
+  Sessions
+</h2>
 <div *ngFor='let session of sessions | async'>
-  <span>{{session.isActive}}</span>
+  <span>Session ID: {{session.id}}</span>
+  
 </div>
-<button (click)="createSession()">Test Create Session</button>
+<h2>
+  Phases
+</h2>
+<div *ngFor='let phase of phases | async'>
+  <span>Phase Name: {{phase.name}}</span>
+</div>
+<button (click)="createSession()">Create Observable Session</button>
+<button (click)="createNonObservableSession()">Create Non-Observable Session</button>
