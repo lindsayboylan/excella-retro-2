@@ -1,4 +1,5 @@
 # Excella Retro 2.0
+https://excellalabs.github.io/excella-retro-2/
 
 [ ![Codeship Status for excellalabs/excella-retro-2](https://app.codeship.com/projects/4f739a60-e025-0134-8f7a-5ecc5558b622/status?branch=master)](https://app.codeship.com/projects/205166)
 
@@ -6,10 +7,10 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 
 ## Versions
 
-### Angular 2
-- Angular 2.3.1
-- Angular-CLI 1.0.0-beta.28.3
-- TypeScript 2.0.3
+### Angular
+- Angular 4.0.0
+- Angular-CLI 1.0.0
+- TypeScript 2.1.0
 
 ### Firebase
 - Firebase 3.6.10
@@ -43,12 +44,8 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
-
-## Deploying to Github Pages
-
-Run `ng github-pages:deploy` to deploy to Github Pages.
 
 ## Further help
 
